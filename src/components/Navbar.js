@@ -7,7 +7,8 @@ import {
   AiFillStar, AiOutlineFundProjectionScreen, AiOutlineHome, AiOutlineUser
 } from "react-icons/ai";
 import { CgGitFork } from "react-icons/cg";
-import { ImBlog, ImLinkedin } from "react-icons/im";
+import { ImLinkedin } from "react-icons/im";
+import { MdOutlineWorkOutline } from "react-icons/md"
 import { Link } from "react-router-dom";
 
 
@@ -72,6 +73,19 @@ function NavBar() {
                   style={{ marginBottom: "2px" }}
                 />{" "}
                 Projects
+              </Nav.Link>
+            </Nav.Item>
+
+            <Nav.Item>
+              <Nav.Link
+                as={Link}
+                to="/experiences"
+                onClick={() => updateExpanded(false)}
+              >
+                <MdOutlineWorkOutline
+                  style={{ marginBottom: "2px" }}
+                />{" "}
+                Experience
               </Nav.Link>
             </Nav.Item>
 
