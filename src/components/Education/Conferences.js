@@ -19,7 +19,7 @@ export default function Conferences() {
     return (
         <Container className="pt-5" id="conferences">
             <h1 className="project-heading text-start">
-                Conferences
+                Publications
                 <strong className="purple">.</strong>
             </h1>
             <div className="education-cards-div ps-5 text-start">
