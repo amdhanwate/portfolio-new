@@ -15,6 +15,7 @@ import Experiences from "./components/Experiences/Experiences";
 import Resume from "./components/Resume/ResumeNew";
 import ScrollToTop from "./components/ScrollToTop";
 import "./style.css";
+import Education from "./components/Education/Education";
 
 function App() {
   const [load, upadateLoad] = useState(true);
@@ -39,6 +40,7 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/resume" element={<Resume />} />
           <Route path="/experiences" element={<Experiences />} />
+          <Route path="/education" element={<Education />} />
           <Route path="*" element={<Navigate to="/"/>} />
         </Routes>
         <Footer />

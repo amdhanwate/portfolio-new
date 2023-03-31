@@ -71,7 +71,7 @@ function Experiences() {
           experiences.map((experience, index) => {
             return (
               <div className={`timeline ${index % 2 === 0 ? "left" : "right"}`}>
-                <ExperienceCard title={experience.title} duration={experience.duration} organization={experience.organization} description={experience.description} experienceType={experience.experienceType} skills={experience.skills} organizationLogo={experience.organizationLogo} disabledProps={["description"]} />
+                <ExperienceCard title={experience.title} duration={experience.duration} organization={experience.organization} description={experience.description} experienceType={experience.experienceType} skills={experience.skills} organizationLogo={experience.organizationLogo} disabledProps={["description", "scores"]} />
               </div>
             )
           })
