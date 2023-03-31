@@ -60,7 +60,7 @@ function ExperienceCard(props) {
                 </p>
             </Card.Body>
             <Button className={`${!link || link.length === 0 ? "d-none" : ""} align-self-center me-2`}>
-                <a href={`${link}`} className="text-white text-decoration-none">View</a>
+                <a target={"__blank"} referrerPolicy="no-referrer" href={`${link}`} className="text-white text-decoration-none">View</a>
             </Button>
         </Card>
     );
