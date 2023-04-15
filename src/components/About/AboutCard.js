@@ -11,7 +11,7 @@ function AboutCard() {
             Hi Everyone, I am <span className="purple">Abhijeet Dhanwate </span>
             from <span className="purple"> Shirdi, Maharashtra.</span>
             <br />
-            Pursuing Final Year B-Tech From MIT Academy OF Engineering and working as Product Engineering Intern @Kylas.io
+            Pursuing Final Year B-Tech in Computer Engineering From MIT Academy OF Engineering and working as Product Engineering Intern @Kylas.io
             <br />
             <br />
             Apart from coding, some other activities that I love to do!

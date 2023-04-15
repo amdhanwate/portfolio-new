@@ -9,7 +9,7 @@ import { SSEMSLogo, MITLogo, AMISLogo } from "./educationLogos";
 export default function Education() {
     const education = [
         {
-            title: "B.Tech. in Computer Science and Engineering",
+            title: "B.Tech. in Computer Engineering",
             organization: "MIT Academy of Engineering, Pune",
             duration: "Aug 2019 - Present",
             description: "As a student of Computer Science and Engineering, I have learned a lot about the fundamentals of Computer Science and Engineering. I have also learned a lot about the practical aspects of Computer Science and Engineering.",

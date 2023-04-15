@@ -13,6 +13,7 @@ function ProjectCards(props) {
         <Card.Text style={{ textAlign: "justify" }} className="">
           {props.description}
         </Card.Text>
+        {/* <span className="text-start">Completed: Dec 2022</span> */}
       </Card.Body>
       <Card.Footer>
         {props.ghLink && (

@@ -49,7 +49,8 @@ function Projects() {
               isBlog={false}
               title="Fake Review Detection"
               description="A Fake review detection system developed to differentiate between the fake and real reviews on particular products on Amazon. The frontend is built using ReactJS and the backend using Python and Flask. We used SVM to We used SVM to classify the reviews as fake or real."
-              ghLink={`${githubLink}/fake-analyzer-backend`}              
+              ghLink={`${githubLink}/fake-analyzer-backend`} 
+              demoLink="https://drive.google.com/file/d/1AfV3gnn1UxZ-ZIFpiaJ-Sw-k1NaTYh9I/view?usp=share_link"             
             />
           </Col>
 
@@ -70,6 +71,7 @@ function Projects() {
               title="Mditor: A markdown editor built with python"
               description="Create and edit markdown files, save them as PDF or HTML on the go. This simple desktop application allows you to do this in a simple and beautiful interface."
               ghLink={`${githubLink}/MDitor-Realtime-Markdown-editor`}
+              demoLink="https://drive.google.com/file/d/1iL32kRwqxDGjjKdT30fa48dU9oQIGjAa/view?usp=share_link"
             />
           </Col>
         </Row>
