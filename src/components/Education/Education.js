@@ -11,9 +11,9 @@ export default function Education() {
         {
             title: "B.Tech. in Computer Engineering",
             organization: "MIT Academy of Engineering, Pune",
-            duration: "Aug 2019 - Present",
+            duration: "Aug 2019 - May 2023",
             description: "As a student of Computer Science and Engineering, I have learned a lot about the fundamentals of Computer Science and Engineering. I have also learned a lot about the practical aspects of Computer Science and Engineering.",
-            scores: <span>8.65 CGPA <small>(till Third year)</small></span>,
+            scores: <span>8.86 CGPA</span>,
             experienceType: "Full Time",
             organizationLogo: MITLogo,
         },
