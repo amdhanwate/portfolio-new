@@ -8,13 +8,13 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Abhijeet Dhanwate </span>
-            from <span className="purple"> Shirdi, Maharashtra.</span>
+            <p>Hi Everyone 👋</p>
+            My name is <span className="purple">Abhijeet</span>
             <br />
-            Pursuing Final Year B-Tech in Computer Engineering From MIT Academy OF Engineering and working as Product Engineering Intern @Kylas.io
+            I am a Full stack Web Engineer who finds joy in using technology to build solutions. 
             <br />
             <br />
-            Apart from coding, some other activities that I love to do!
+            Apart from coding, I love to
           </p>
           <ul>
             <li className="about-activity">

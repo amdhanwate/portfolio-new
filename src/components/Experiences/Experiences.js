@@ -14,9 +14,9 @@ function Experiences() {
       "title": "Product Engineer Intern",
       "organization": "Kylas.io",
       "organizationLogo": logos.kylasLogo,
-      "duration": "Feb 2023 - Present",
+      "duration": "Feb 2023 - July 2023",
       "description": [],
-      "skills": "Springboot, PostgreSQL, Java",
+      "skills": "Springboot, PostgreSQL, Java, AWS",
       "experienceType": "Internship",
     },
     {
