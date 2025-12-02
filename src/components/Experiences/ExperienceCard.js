@@ -26,8 +26,6 @@ function ExperienceCard(props) {
         }
     })
 
-    console.log(link);
-
     return (
         <Card className={`text-white border flex-row ${className}`} style={{ backgroundColor: "transparent" }}>
             {organizationLogo && <img src={organizationLogo} alt="" width={50} className="d-block align-self-start ms-4 mt-4" />}

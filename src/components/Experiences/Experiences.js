@@ -11,6 +11,24 @@ function Experiences() {
 
   const experiences = [
     {
+      "title": "Senior Software Engineer",
+      "organization": "Rhythmflows",
+      "organizationLogo": logos.rhythmflowsLogo,
+      "duration": "Mar 2024 - Present",
+      "description": [],
+      "skills": "Springboot, PostgreSQL, Java, React.js, Docker, CI/CD",
+      "experienceType": "Full Time",
+    },
+    {
+      "title": "Software Engineer",
+      "organization": "Arisan Global",
+      "organizationLogo": logos.arisanLogo,
+      "duration": "Sep 2023 - Mar 2024",
+      "description": [],
+      "skills": "Springboot, PostgreSQL, Java, AWS",
+      "experienceType": "Full Time",
+    },
+    {
       "title": "Product Engineer Intern",
       "organization": "Kylas.io",
       "organizationLogo": logos.kylasLogo,

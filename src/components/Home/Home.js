@@ -1,11 +1,18 @@
 import React from "react";
-import { Col, Container, Row } from "react-bootstrap";
+import { Button, Col, Container, Row } from "react-bootstrap";
 import homeLogo from "../../Assets/home-main.svg";
 import Particle from "../Particle";
 import Home2 from "./Home2";
 import Type from "./Type";
 
 function Home() {
+
+  const handleViewResumeClick = () => {
+    console.log("View Resume button clicked");
+
+    window.open("https://drive.google.com/file/d/1KXJH1bXKXJH1bXKXJH1bXKXJH1bXK/view?usp=sharing", "_blank");
+  }
+
   return (
     <section>
       <Container fluid className="home-section" id="home">
@@ -14,7 +21,7 @@ function Home() {
           <Row>
             <Col md={7} className="home-header">
               <h1 style={{ paddingBottom: 15 }} className="heading">
-                Hi There!{" "}
+                Hello Everyone!{" "}
                 <span className="wave" role="img" aria-labelledby="wave">
                   👋🏻
                 </span>
@@ -29,6 +36,14 @@ function Home() {
                 <small className="font-monospace">and I am a</small>
                 <Type />
               </div>
+
+              {/* <Button
+                className="align-self-center me-2"
+                onClick={handleViewResumeClick}
+                style={{ margin: "0px 50px" }}
+              >
+                View Resume
+              </Button> */}
             </Col>
 
             <Col md={5} style={{ paddingBottom: 20 }}>
