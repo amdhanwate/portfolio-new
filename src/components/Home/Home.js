@@ -37,13 +37,6 @@ function Home() {
                 <Type />
               </div>
 
-              {/* <Button
-                className="align-self-center me-2"
-                onClick={handleViewResumeClick}
-                style={{ margin: "0px 50px" }}
-              >
-                View Resume
-              </Button> */}
             </Col>
 
             <Col md={5} style={{ paddingBottom: 20 }}>
