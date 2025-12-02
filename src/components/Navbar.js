@@ -7,6 +7,7 @@ import {
 } from "react-icons/ai";
 import { ImLinkedin, ImBooks } from "react-icons/im";
 import { MdOutlineWorkOutline } from "react-icons/md"
+import { BiBook } from "react-icons/bi";
 import { Link } from "react-router-dom";
 
 
@@ -94,6 +95,16 @@ function NavBar() {
                 onClick={() => updateExpanded(false)}
               >
                 <ImBooks style={{ marginBottom: "2px" }} /> Education
+              </Nav.Link>
+            </Nav.Item>
+
+            <Nav.Item>
+              <Nav.Link
+                href="https://drive.google.com/file/d/1Lxf19rJhDRrf7Ds96NGIAKzig1cRP9Fh/view"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <BiBook style={{ marginBottom: "2px" }} /> Resume
               </Nav.Link>
             </Nav.Item>
 

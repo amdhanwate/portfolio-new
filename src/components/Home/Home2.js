@@ -1,7 +1,7 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import {
-    AiFillGithub, AiFillInstagram, AiOutlineTwitter
+  AiFillGithub, AiFillInstagram, AiOutlineTwitter
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 import Tilt from "react-parallax-tilt";
@@ -17,16 +17,22 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I was introduced to Internet when I was then and since then there is no turning back.
-              <br />I like to code in 
+              I am a Full Stack Software Engineer with <b className="purple">3 years of progressive experience</b> building and scaling enterprise-grade microservices-based
+              solutions in <b class="purple">SpringBoot</b>, <b class="purple">React.js</b>, <b class="purple">Java</b>. 
+              <br />
+              <br />
+              I have proven expertise in building high-performance systems, architecting SaaS platforms, and
+              integrating AI/ML features. I am adept at driving end-to-end development, mentoring team members, and delivering robust
+              solutions across the BFSI Sector.
+              {/* <br />I code in
               <i>
-                <b className="purple"> Python, Java and JavaScript. </b>
+                <b className="purple"> Java, Python and JavaScript. </b>
               </i>
               <br />
               <br />
-              I love to build new &nbsp;
+              I love to build
               <i>
-                <b className="purple">Web apps </b> that help people ease their work.
+                <b className="purple"> things </b> that help people ease their work.
                 Recently, I've developed interests into
                 <b className="purple">
                   {" "} AI {" "}
@@ -47,6 +53,7 @@ function Home2() {
               <i>
                 <b className="purple"> React.js and Angular</b>
               </i>
+            </p> */}
             </p>
           </Col>
           <Col md={4} className="myAvtar">
